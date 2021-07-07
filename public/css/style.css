@@ -1,4 +1,6 @@
 *{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -40,8 +42,7 @@ body{
 
 .main-nav-bar ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    
 }
 
 .main-nav-bar a{
@@ -52,13 +53,143 @@ body{
     font-size: 17px;
 }
 
-section img{
-    width: 100%;
-}
+/* .main section article i{
+    display: block​;
+    font-size: 16px;
+    padding: 5​px;
+    width: 30​px;
+    height: 30​px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20​px​;
+    top: -15​ px​;
+    } */
 
 .main article, body{
     background-color: rgb(202, 199, 199);
 }
+
+.main-banner img{
+    width: 100%;
+}
+
+.main{
+    width: 90%;
+    margin: auto;    
+}
+
+h2 {
+    margin: 15px 0px;
+    font-size: 24px;
+}
+
+.precio-oferta{
+    display: flex;
+    align-items: center;
+}
+
+.precios{
+    width: 30%;
+    font-size: 18px;
+}
+
+.ofertas{
+    width: 70%;   
+    color: green;
+}
+
+article p {
+    font-size: 16px;
+}
+
+article img{
+    width: 100%;
+}
+
+.descripcion-articulo{
+    margin-top: -3px;
+    background-color: white;
+
+}
+
+.circle-env{
+    
+    height: 50px;
+    width: 50px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    
+    
+}
+
+article{
+    margin-bottom: 10px;    
+}
+
+article strong{
+    display: none;
+}
+
+article div{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+@media (min-width:361px) {
+
+    .section-ultima-visita, .section-ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    article strong{
+        display: block;        
+    }
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+        
+    }
+
+
+     
+}
+
+.create-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.button-form{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
 @media (min-width: 768px) {
     .main-header-top-bar{
         display: flex;
@@ -86,49 +217,12 @@ section img{
     .main-nav-bar li{
         margin: 0 5px;
     }
-}
 
-.main-banner img{
-    width: 100%;
-}
+    article{
+        width: 22%;
+    }
 
-.main{
-    width: 90%;
-    margin: auto;
-    
-    
-}
-
-section h2 {
-    font-size: 24px;
-}
-
-.precios{
-    font-size: 18px;
-}
-
-article p {
-    font-size: 16px;
-}
-
-.circle-env{
-    height: 50px;
-    width: 50px;
-    border: 1px solid green;
-    border-radius: 50%;
-    color: green;
-    /* display: inline-block; */
-}
-
-article{
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100) ;
-}
-
-article div{
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-}
+   
 
 @media (min-width:1200px) {
     .logo{
@@ -165,3 +259,4 @@ article div{
     }
 }
 
+}
