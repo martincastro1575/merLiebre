@@ -208,7 +208,9 @@ article div{
    background-color: #0022AA;
 }
 
-
+.footer-section div{
+    padding: 0px 15px;
+}
 
 .footer-section{    
     margin-top: 15px;
