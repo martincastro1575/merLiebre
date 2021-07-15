@@ -162,10 +162,20 @@ article div{
     padding: 15px;
 }
 
-.form-regi, .form-login{
+.form-regi, .form-login, .form-search-bar{
     display: flex;
     justify-content: center;
 }
+
+.form-search-bar form input{
+    position: relative;
+    border-radius: 5px;
+}
+
+.form-search-bar button{
+    position: absolute;
+}
+
 .create-form{
     padding: 20px 15px;
     max-width: 850px;
