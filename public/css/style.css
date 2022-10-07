@@ -231,9 +231,15 @@ article div{
     color: rgb(2, 2, 131);
     font-size: 30px;
     margin: 20px 0px 10px 0px;
+    transition: color 100ms;
     
 }
 
+.footer-section div i:hover {
+    color: rgb(72, 72, 77);
+    
+    
+}
 .copy-right div{
     margin: 20px 0px 0px 5px;
     padding-top: 5px;
